@@ -1,0 +1,18 @@
+@import url(./CSS/Colors.css);
+@import url(./CSS/Reset.css);
+@import url(./CSS/ScrollReset.css);
+@import url(./CSS/SwitchTheme.css);
+@import url(./CSS/Aside.css);
+@import url(./CSS/Layout.css);
+@import url(./CSS/Newsfeed.css);
+@import url(./CSS/Home.css);
+@import url(./CSS/Image.css);
+@import url(./CSS/Tweet.css);
+
+main{
+    display:flex;
+    flex-direction:column;
+}
+
+
+

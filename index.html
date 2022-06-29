@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+			rel="stylesheet"
+		>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <script type="module" src="./app.js"></script>
+</head>
+<body class="light-theme">
+	<aside>
+		<header>
+			<sidebar-logo class="default"></sidebar-logo>
+			<sidebar-moon class="default"></sidebar-moon>
+		</header>
+		
+		<section>
+			<sidebar-home class="default"></sidebar-home>
+			<sidebar-explore class="default"></sidebar-explore>
+			<sidebar-notifications class="default"></sidebar-notifications>
+			<sidebar-bookmarks class="default"></sidebar-bookmarks>
+			<sidebar-list class="default"></sidebar-list>
+			<sidebar-profile class="default"></sidebar-profile>
+			<sidebar-more class="default"></sidebar-more>
+		</section>
+		<div id="dropdownItems" class="default">
+			<dropdown-topic class="default"></dropdown-topic>
+			<dropdown-news class="default"></dropdown-news>
+			<dropdown-spaces class="default"></dropdown-spaces>
+			<dropdown-ads class="default"></dropdown-ads>
+			<dropdown-analytics class="default"></dropdown-analytics>
+			<horizontal-border class="default"></horizontal-border>
+			<dropdown-settings class="default"></dropdown-settings>
+			<dropdown-help class="default"></dropdown-help>
+			<dropdown-display class="default"></dropdown-display>
+			<dropdown-shortcuts class="default"></dropdown-shortcuts>
+		</div>
+
+			<primary-button label="Tweet" class="default large"></primary-button>
+			
+	
+		<footer>
+			<sidebar-username image="./Images/Avatar.jpg" account="@sakibb78" username="Mohammad Sakib" class="default">
+			</sidebar-username>
+
+			
+			<div class="default" id="dropdownUsername">
+				<dropdown-username image="./Images/Avatar.jpg" account="@sakibb78" username="Mohammad Sakib" class="default">
+				</dropdown-username>
+				<horizontal-border class="default"></horizontal-border>
+			
+				<dropdown-text label="Add new Account"  class="default"></dropdown-text>
+				<dropdown-text label="Logout"  class="default"></dropdown-text>
+					
+			</div>
+		</footer>
+	</aside>
+
+	<vertical-border class="default"></vertical-border>
+
+	<main>
+		<div id="home">
+			<!-- Home Header-->
+			<div>
+				<type-style label="home" class="size-20px bold default"></type-style>
+				<star-icon class="default"></star-icon>
+			</div>
+			<div>
+				<img class="image-style" src="./Images/Avatar.jpg" alt="">
+				<type-style label="What is happening?" class="size-20px gray default"></type-style>
+			</div>
+			<div>
+				<div>
+					<image-icon class="default"></image-icon>
+					<gif-icon class="default"></gif-icon>
+					<analytics-icon class="default"></analytics-icon>
+					<emoji-icon class="default"></emoji-icon>
+					<event-icon class="default"></event-icon>
+					<location-icon class="default"></location-icon>
+				</div>
+				<primary-button class="default regular" label="tweet"></primary-button>
+			</div>
+		</div>
+			<!--Tweet Cards-->
+			<div id="tweet"></div>
+			
+			<horizontal-border class="default"></horizontal-border>
+		
+	</main>
+
+	<vertical-border class="default"></vertical-border>
+
+	<article>
+		<type-style label="News Feed" class="size-20px bold default"></type-style>
+		<div class="follow-info"></div>
+		<type-style label="Who to follow" class="size-20px bold default"></type-style>
+		<div class="trending-info"></div>
+	</article>
+
+</body>
+</html>

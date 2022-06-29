@@ -1,0 +1,8 @@
+Project Name: Twitter Clone
+
+
+Technoglogies used:
+-------------------------------
+HTML
+CSS
+Javascript (Lit Framework)
